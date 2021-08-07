@@ -38,3 +38,15 @@ function color(color = 'red') {
 
 //Lesson8
 
+// let anonFunc = function (){
+//     console.log('We are anonymous');
+// }
+
+
+let anonFunc = (message) => {
+    let count = 5;
+    return message + count;
+};
+
+console.log(anonFunc(995));
+
