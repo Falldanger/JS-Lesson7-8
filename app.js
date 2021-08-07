@@ -1,3 +1,4 @@
+//Lesson7
 let car = {
     color: "green",
     maxSpeed: 250,
@@ -16,8 +17,24 @@ function cupColorReset() {
 }
 
 //
-function watch(message = 'Some text'){
-    return message;
+function watch(message = 'Some text') {
+    return message + ' - 123456';
 }
 
-console.log(watch('Test text'));
+let message = watch('Test text');
+
+console.log(message);
+
+//DZ
+
+color('black');
+
+function color(color = 'red') {
+    if (color === 'red') {
+        return;
+    }
+    console.log(color);
+}
+
+//Lesson8
+
